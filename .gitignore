@@ -1,0 +1,12 @@
+# Driver output. Results are regenerated from the drivers and job scripts
+# (see README), so they are not tracked; the repository ships code, not data.
+# Force-add deliberately if a specific result set should ever be committed.
+/comparison_results/
+
+# MEX build artifacts
+*.mex*
+
+# Stray LaTeX logs from doc builds
+*.aux
+*.log
+.DS_Store
