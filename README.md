@@ -14,6 +14,17 @@ adjoint. The off-diagonal ranks are chosen during the factorization from a
 prescribed tolerance. The drivers and job scripts in this repository
 regenerate every table of the paper and the data behind its figures.
 
+## Versions
+
+Release [`v1.0.0`](https://github.com/SMART-Algebra/Adaptive-Matfree-HSS/releases/tag/v1.0.0)
+is the code that produced the results in the paper. Later commits on `main`
+may change defaults, timings, or results; check out `v1.0.0` to reproduce
+the paper:
+
+```bash
+git clone --branch v1.0.0 https://github.com/SMART-Algebra/Adaptive-Matfree-HSS.git
+```
+
 ## Citation
 
 ```bibtex
